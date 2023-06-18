@@ -2,7 +2,7 @@ version: '3.8'
 services:
   sample-book-app-dev:
     build: .
-    image: sample-book-app
+    image: marcisvitols/sample-book-app:latest
     container_name: sample-book-app-dev
     ports:
       - 1010:1050
