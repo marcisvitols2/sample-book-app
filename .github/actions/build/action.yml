@@ -1,4 +1,4 @@
-name: 'Build docker image
+name: Build docker image
 description: 'Action to building docker for our sample-book-app'
 runs:
   using: "composite"
