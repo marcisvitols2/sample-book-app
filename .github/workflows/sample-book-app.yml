@@ -64,6 +64,6 @@ jobs:
     needs: [deploy-prd]
     steps:
       - uses: actions/checkout@v3
-     - uses: ./.github/actions/test
+      - uses: ./.github/actions/test
         with:
           environment: 'PRD'
